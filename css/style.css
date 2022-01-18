@@ -17,3 +17,48 @@ header {
     background-color: #e579e6;
     height: 5rem;
 }
+
+/* Gold rectangle */
+.header-2 {
+    background-color: #e1d67a;
+    height: 15rem;
+    margin: 1em 0;
+}
+
+/* Blue rectangle */
+.content {
+    background-color: #0086ff;
+    height: 20rem;
+}
+
+/* Lightblue rectangles */
+.content-header, .column {
+    background-color: #abcfe7;
+}
+
+.content-header {
+    height: 3rem;
+}
+
+.side-column, .main-column {
+    float: left;
+    margin: 1rem 0;
+    height: 15rem;
+}
+
+.side-column {
+    width: calc(20% - 1rem);
+}
+
+.main-column {
+    width: 60%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+/* Clearfix */
+.content::after {
+    content: "";
+    display: table;
+    clear: both;
+}
