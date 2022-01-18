@@ -4,3 +4,16 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+.container {
+    background-color: #fff;
+    width: 80%;
+    margin: 1rem auto;
+}
+
+/* Pink rectangle */
+header {
+    background-color: #e579e6;
+    height: 5rem;
+}
