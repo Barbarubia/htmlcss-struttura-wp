@@ -47,7 +47,7 @@ header {
 }
 
 .side-column {
-    width: calc(20% - 1rem);
+    width: calc((100% - (60% + 2rem)) / 2); /* or calc(20% - 1rem) */
 }
 
 .main-column {
